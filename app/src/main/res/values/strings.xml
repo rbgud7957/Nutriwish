@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">NutriWish</string>
+    <string name="category_immunity">면역 강화</string>
+    <string name="category_fatigue">피로 회복</string>
+    <string name="category_joint">관절 건강</string>
+    <string name="category_digestion">소화 개선</string>
+    <string name="category_skin_hair">피부 &amp; 모발 건강</string>
+    <string name="category_brain_focus">두뇌 &amp; 집중력 강화</string>
+    <string name="category_eye">눈 건강</string>
+    <string name="category_heart_vascular">심장 &amp; 혈관 건강</string>
+    <string name="category_diet_weight">다이어트 &amp; 체중 관리</string>
+    <string name="category_sleep_stress">숙면 &amp; 스트레스 완화</string>
+    <string name="favorite_button">즐겨찾기 보기</string>
+</resources>

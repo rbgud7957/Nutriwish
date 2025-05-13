@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <!-- 면역 강화 버튼 -->
+    <Button
+        android:id="@+id/btn_immunity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="면역 강화"
+        android:backgroundTint="@color/button_color"
+        android:fontFamily="@font/gamtan"
+        android:textColor="@color/button_text" />
+
+    <!-- 피로 회복 버튼 -->
+    <Button
+        android:id="@+id/btn_fatigue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="피로 회복"
+        android:backgroundTint="@color/button_color"
+        android:fontFamily="@font/gamtan"
+        android:textColor="@color/button_text" />
+
+    <!-- 소화 개선 -->
+    <Button
+        android:id="@+id/btn_digestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="소화 개선"
+        android:backgroundTint="@color/button_color"
+        android:fontFamily="@font/gamtan"
+        android:textColor="@color/button_text" />
+</LinearLayout>

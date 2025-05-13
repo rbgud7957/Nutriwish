@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:gravity="center_vertical">
+
+    <!-- 검색 결과 텍스트 -->
+    <TextView
+        android:id="@+id/search_result_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="검색 결과 항목"
+        android:fontFamily="@font/gamtan"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <!-- 즐겨찾기 버튼 -->
+    <Button
+        android:id="@+id/favorite_toggle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/black"
+        android:fontFamily="@font/gamtan"
+        android:text="즐겨찾기 추가" />
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <!-- 두뇌 & 집중력 강화 버튼 -->
+    <Button
+        android:id="@+id/btn_brain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="두뇌 &amp; 집중력 강화"
+        android:backgroundTint="@color/button_color"
+        android:fontFamily="@font/gamtan"
+        android:textColor="@color/button_text" />
+
+    <!-- 피부 & 모발 건강 버튼 -->
+    <Button
+        android:id="@+id/btn_skin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="피부 &amp; 모발 건강"
+        android:backgroundTint="@color/button_color"
+        android:fontFamily="@font/gamtan"
+        android:textColor="@color/button_text" />
+
+    <!-- 눈 건강 버튼 -->
+    <Button
+        android:id="@+id/btn_eye"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="눈 건강"
+        android:backgroundTint="@color/button_color"
+        android:fontFamily="@font/gamtan"
+        android:textColor="@color/button_text" />
+
+    <!-- 심장 & 혈관 건강 버튼 -->
+    <Button
+        android:id="@+id/btn_heart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="심장 &amp; 혈관 건강"
+        android:backgroundTint="@color/button_color"
+        android:fontFamily="@font/gamtan"
+        android:textColor="@color/button_text" />
+</LinearLayout>

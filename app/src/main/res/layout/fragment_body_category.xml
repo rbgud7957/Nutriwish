@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <!-- 관절 건강 -->
+    <Button
+        android:id="@+id/btn_joint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="관절 건강"
+        android:fontFamily="@font/gamtan"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/button_text" />
+
+    <!-- 다이어트 & 체중 관리 버튼 -->
+    <Button
+        android:id="@+id/btn_diet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="다이어트 &amp; 체중 관리"
+        android:fontFamily="@font/gamtan"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/button_text" />
+
+    <!-- 숙면 & 스트레스 완화 버튼 -->
+    <Button
+        android:id="@+id/btn_sleep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="숙면 &amp; 스트레스 완화"
+        android:fontFamily="@font/gamtan"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/button_text" />
+</LinearLayout>

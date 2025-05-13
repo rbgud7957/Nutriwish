@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".IntroActivity"
+    android:background="#90EE90">
+
+    <!-- 로고 이미지 -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/logo" />
+
+    <!-- 앱 이름 -->
+    <ImageView
+        android:id="@+id/initials"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/initials"
+        android:layout_below="@+id/logo"/>
+
+
+</LinearLayout>

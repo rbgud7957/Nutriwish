@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@color/tab_selected" /> <!-- 선택된 상태 -->
+    <item android:state_pressed="true" android:drawable="@color/tab_selected" /> <!-- 눌린 상태 -->
+    <item android:state_focused="true" android:drawable="@color/tab_selected" /> <!-- 포커스 상태 -->
+    <item android:drawable="@color/tab_default" /> <!-- 기본 상태 -->
+</selector>

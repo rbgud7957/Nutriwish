@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F0FFF0"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".LoginActivity">
+
+    <!-- 로고 이미지 -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/logo" />
+
+    <!-- 로그인 / 회원가입 기능 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <!-- 이메일 입력란 -->
+        <EditText
+            android:id="@+id/loginEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#FFFFFF"
+            android:hint="이메일"
+            android:inputType="textCapWords"
+            android:fontFamily="@font/kcchanbit"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#D3D3D3" />
+
+        <!-- 비밀번호 입력란 -->
+        <EditText
+            android:id="@+id/loginPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:hint="비밀번호"
+            android:fontFamily="@font/kcchanbit"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#D3D3D3" />
+
+        <!-- 로그인 버튼 -->
+        <android.widget.Button
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/button_color"
+            android:fontFamily="@font/gamtan"
+            android:text="로그인" />
+
+        <!-- 회원가입 버튼 -->
+        <android.widget.Button
+            android:id="@+id/btn_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#c2d9ce"
+            android:fontFamily="@font/gamtan"
+            android:text="회원가입" />
+    </LinearLayout>
+</LinearLayout>

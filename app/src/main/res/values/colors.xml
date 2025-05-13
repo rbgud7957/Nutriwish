@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorEdit">#c6e1ff</color> <!-- 파란색 (수정 버튼) -->
+    <color name="colorSave">#fdbab8</color> <!-- 빨간색 (저장 버튼) -->
+    <color name="bottom_nav_bar_color">#c8e6c8</color>
+    <color name="button_color">#c2d9ce</color>
+    <color name="button_text">#3d4a3d</color>
+    <color name="calendar_back">#f3fbf3</color>
+    <color name="star">#e3f0ff</color>
+    <color name="tab_color">#7fd1ae</color>
+    <color name="tab_background">#f1fcf1</color>
+    <color name="tab_selected">#f3fbf3</color> <!-- 선택된 탭 색상 -->
+    <color name="tab_default">#f3fbf3</color> <!-- 기본 탭 색상 -->
+    <color name="tab_text_default">#212121</color>
+</resources>

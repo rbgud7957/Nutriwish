@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 네비게이션 스타일의 탭 -->
+    <LinearLayout
+        android:id="@+id/tab_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/tab_background">
+
+        <!-- "건강" 탭 -->
+        <Button
+            android:id="@+id/btn_health"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/tab_background"
+            android:text="건강"
+            android:fontFamily="@font/gamtan"
+            android:textColor="@color/tab_text_default" />
+
+        <!-- "신체 관리" 탭 -->
+        <Button
+            android:id="@+id/btn_body"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/tab_background"
+            android:text="신체 관리"
+            android:fontFamily="@font/gamtan"
+            android:textColor="@color/tab_text_default" />
+
+        <!-- "기타" 탭 -->
+        <Button
+            android:id="@+id/btn_other"
+            android:layout_width="3dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/tab_background"
+            android:text="기타"
+            android:fontFamily="@font/gamtan"
+            android:textColor="@color/tab_text_default" />
+    </LinearLayout>
+
+    <!-- Fragment 컨테이너 -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
