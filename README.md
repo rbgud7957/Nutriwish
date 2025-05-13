@@ -44,6 +44,14 @@
 - 로그인 정보, 영양제의 정보 데이터와 같은 정보가 DB에 저장됩니다.
 <br>
 
-![image](
+![Image](https://github.com/user-attachments/assets/bd042d9f-bdbe-495d-9c9e-6018b87319e0)
+
+<hr>
+
+<b>관리</b>
+- 최근에는 접속이 없어 데이터가 안보이지만 실시간으로 사용량 파악이 가능합니다.
+<br>
+
+![Image](https://github.com/user-attachments/assets/77d16626-38e8-4383-9a1e-66341012a4cc)
 
 <br> 
